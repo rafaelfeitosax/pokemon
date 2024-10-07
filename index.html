@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!--Cabeçalho-->
+    <div class="container"> 
+        <h1 class="main-title">Quem é esse Pokémon?</h1>
+        <p class="main-paragraph">© Pokémon 1997</p>
+
+        <!-- Imagem do Charizard -->
+        <div class="image-container">
+            <img src="img/charizard.png" alt="Sombra do Pokémon" class="pokemon-image">
+        </div>
+
+        <!-- Select para escolher o nome do Pokémon -->
+        <div class="select-container">
+            <label for="pokemon-select">Escolha o Pokémon:</label>
+            <select id="pokemon-select">
+                <option value="pikachu">Pikachu</option>
+                <option value="bulbasaur">Bulbasaur</option>
+                <option value="charizard">Charizard</option>
+                <option value="squirtle">Squirtle</option>
+            </select>
+            <button type="button" onclick="enviarResposta()">Enviar</button>
+        </div>
+        
+        <!-- Área para exibir a resposta -->
+        <div id="resposta" class="resposta"></div>
+    </div>
+
+        <!-- Imagem a ser liberada ao acertar -->
+        <div id="imagem-correta" style="display: none;">
+            <img src="img/gif.gif" alt="charizard gif" class= "gif-image">
+        </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

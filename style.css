@@ -1,0 +1,20 @@
+.container{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+.pokemon-image{
+    width: 15%; /* Largura da imagem */
+    height: auto; /* Altura automática para manter a proporção */
+    margin: 20px auto; /* Espaço ao redor da imagem */
+    display: block; /* Centraliza a imagem */
+}
+
+.gif-image{
+    width: 40%;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+
+}
